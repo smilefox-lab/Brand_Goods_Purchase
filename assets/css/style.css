@@ -1,15 +1,8 @@
-/**
-* Template Name: Green - v4.7.0
-* Template URL: https://bootstrapmade.com/green-free-one-page-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   color: #444444;
 }
 
@@ -1425,15 +1418,17 @@ section {
   border-top: 2px solid #C8A54E;
   border-bottom: 2px solid #C8A54E;
   width: 90%;
-  margin:10px 5%;
+  margin: 10px 5%;
 }
+
 @media (min-width: 768px) {
   .item_service {
     width: 30% !important;
-  margin:10px 1.65%;
+    margin: 10px 1.65%;
 
   }
 }
+
 .about_content {
   padding: 20px;
   background: #EBEDE5;
@@ -1444,33 +1439,291 @@ section {
   margin: 1% 1%;
   padding: 0;
 }
+
 @media (min-width: 768px) {
   .about_content_item {
     width: 23% !important;
   }
 }
+
 .about_content_item_1 {
   background: #657758;
   color: white;
   padding: 10px;
   text-align: center;
 }
+
 .about_content_item_2 {
   color: #657758;
   padding: 20px 20px;
   text-align: center;
   height: 80px;
 }
+
 .about_content_item_3 {
   padding: 10px 20px;
   text-align: left;
 }
-.team_item{
+
+
+
+.team_item {
   box-shadow: none !important;
   padding: 0 0 !important;
 }
 
-.reason img{
+.reason {
+  border-top: 7px solid #C5982C;
+}
+
+.reason img {
   border-radius: 0% !important;
   max-width: 100% !important;
+}
+
+.reason h1 {
+  color: #C5982C;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.reason h3 {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.reason h4 {
+  line-height: 2.3rem;
+  text-align: left;
+  font-weight: 550;
+}
+
+
+.model_content {
+  padding: 20px;
+}
+
+.model_content_item {
+  background: white;
+  margin: 1% 1%;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .model_content_item {
+    width: 48% !important;
+    border: 1px solid #657758;
+  }
+}
+
+.model_content_item_1 {
+  background: #657758;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.model_content_item_2 {
+  color: #657758;
+  padding: 20px 20px;
+  text-align: center;
+  height: 80px;
+}
+
+.model_content_item_3 {
+  padding: 20px 5rem;
+  text-align: left;
+  border-top: 1px solid #657758;
+}
+
+.model_content_item img {
+  max-width: 100%;
+}
+
+.model_content_item .model_content_img {
+  padding: 1rem;
+}
+
+.content-item-media {
+  margin: 1rem 4rem;
+}
+
+.media_title {
+  text-align: center;
+  padding: 1.5rem 0.5rem;
+  background: #EBEDE5;
+}
+
+#Safety {
+  background: #faf0d8;
+}
+
+.safety {
+  margin: 0 4rem;
+  padding: 1rem 3rem;
+  background: #fff;
+  border: 3px solid #C5982C;
+  box-sizing: border-box;
+}
+
+.member_item {
+  margin: 0 1rem;
+  padding: 1rem 4rem;
+  background: #C5982C;
+  color: white;
+  font-weight: 700 !important;
+}
+
+.faq {
+  margin: 0 4rem;
+  padding: 1rem 3rem;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.faq_item {
+  margin: 1rem 4rem;
+  font-size: 1.4rem;
+  line-height: 1.85;
+  font-weight: 400;
+  border-bottom: 1px solid rgb(143, 143, 143);
+}
+
+.faq_item1 {
+  margin: 1rem 4rem;
+  font-size: 1.4rem;
+  line-height: 1.85;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .faq__item-q {
+    padding: 5px 0 5px 70px;
+    margin-bottom: 13px;
+    font-size: 1.6rem;
+  }
+}
+
+.faq__item-q {
+  font-weight: 700;
+}
+
+.faq__item-q, .faq__item-a {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.faq__item-a {
+  padding: 5px 0 5px 70px;
+  margin-bottom: 26px;
+}
+
+
+.faq__item-q:before {
+  content: "Q";
+  background: #657758;
+}
+
+.faq__item-q:before, .faq__item-a:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: 'Shippori Mincho', serif;
+  width: 35px;
+  height: 35px;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+
+  .faq__item-q:before, .faq__item-a:before {
+    width: 40px;
+    height: 40px;
+    font-size: 1.8rem;
+  }
+}
+
+.faq__item-a:before {
+  content: "A";
+  background: #C5982C;
+}
+
+.info {
+  padding: 0rem 5rem !important;
+  padding-top: 2rem !important;
+  width: 80% !important;
+
+}
+
+.contact_item {
+  padding: 0rem 2rem !important;
+  margin: 0 4rem !important;
+}
+
+@media (min-width: 768px) {
+  .l-footer__inner {
+    display: flex;
+    margin: auto;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 90%;
+  }
+}
+
+  .l-footer-info {
+    box-sizing: border-box;
+}
+
+  .l-footer-content {
+    width: 90%px;
+  }
+
+.l-footer__inner ul {
+  list-style: none;
+}
+
+
+.l-ftnav {
+  margin-top: 0;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.l-ftnav a{
+  color:white;
+  padding: 0 5px;
+}
+.l-footer__cr {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+.l-footer__cr {
+  font-size: 1rem;
+  font-size: "Barlow";
+  letter-spacing: 0.1em;
+}
+.l-footer-info img{
+  width: 100%;
 }
