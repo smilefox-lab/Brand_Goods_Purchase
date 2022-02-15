@@ -382,14 +382,14 @@ a:hover {
 
 @media (max-width: 1024px) and (min-width: 768px){
   #hero {
-    height: 60vh !important;
+    /* height: 60vh !important; */
   }
 }
 
 
 @media (max-width: 767px){
   #hero {
-    height: 45vh !important;
+    /* height: 45vh !important; */
   }
 }
 
