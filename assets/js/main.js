@@ -1,7 +1,5 @@
 /**
-* Template Name: Green - v4.7.0
-* Template URL: https://bootstrapmade.com/green-free-one-page-bootstrap-template/
-* Author: BootstrapMade.com
+* Author: WilyDev
 * License: https://bootstrapmade.com/license/
 */
 (function() {
